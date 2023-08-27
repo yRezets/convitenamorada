@@ -1,4 +1,4 @@
-# Te amo vida!!!
+# Princesa!!!
 
 <html>
 <head>
@@ -34,14 +34,14 @@
 </style>
 </head>
 <body>
-<div id="message">Vem ficar comigo hoje amor assistindo um filminho?</div>
+<div id="message">Casa comigo?</div>
 <button class="button" onclick="showResponse('Sim')">Sim</button>
 <button class="button" onclick="moveButton()">Não</button>
 
 <script>
 function showResponse(response) {
   const messageDiv = document.getElementById('message');
-  messageDiv.textContent = response === 'Sim' ? 'Te amo pra poha, me desculpa por favorr!' : 'Awww, pensa melhor 😢';
+  messageDiv.textContent = response === 'Sim' ? 'Te amo muito!' : 'Awww, pensa melhor 😢';
 }
 
 function moveButton() {
